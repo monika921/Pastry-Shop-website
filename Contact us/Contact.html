@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap" rel="stylesheet">
+    <title>Contact Form Design</title>
+</head>
+<body>
+    <div class="contact-title">
+        <h1>Say Hello</h1>
+        <h2>We are always ready to serve you!</h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="contact-form-handler.php"> <!--method=form or get-->
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" 
+            id="email" required>
+            <br>
+            <textarea type="text" id="message" name="message" rows="4" class="form-control" 
+            placeholder="Message" required></textarea>
+            <input type="submit" name="submit" class="form-control submit" value="SEND MESSAGE">
+        </form> 
+    </div>
+</body>
+</html>

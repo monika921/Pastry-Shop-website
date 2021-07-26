@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/food-drink-food.jpg");
+    background-repeat: no-repeat;
+    background-size: 1390px 655px;
+}
+*{
+    font-family: 'Ruslan Display', cursive;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.content{
+    text-align: center;
+}
+.content h1,h2,h3{
+    padding: 0;
+    margin: 0;
+    text-shadow: 10px 20px 60px BLACK;
+}
+.content h2{
+    font-size: 3vw;
+    color: #91CB3E;
+}
+.content h1{
+    font-size: 6vw;
+    color: #00BCD4;
+}
+.content h3{
+    font-size: 2vw;
+    color: #00BCD4;
+}
+button{
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    border-radius: 49px;
+    border: 2px solid #FF9900;
+    background-color: transparent;
+    box-shadow: 0px 15px 20px black;
+    font-size: 1.3vw;
+}
+button:hover{
+    background-color: #FF9900;
+    cursor: pointer;
+}
